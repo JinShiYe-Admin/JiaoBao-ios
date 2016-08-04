@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		431680F11D5321570084E1BC /* VKSideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 431680F01D5321570084E1BC /* VKSideMenu.m */; };
 		434705D11D519CA900A46704 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 434705D01D519CA900A46704 /* main.m */; };
 		434705D41D519CA900A46704 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 434705D31D519CA900A46704 /* AppDelegate.m */; };
 		434705D71D519CA900A46704 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 434705D61D519CA900A46704 /* ViewController.m */; };
@@ -56,6 +57,8 @@
 
 /* Begin PBXFileReference section */
 		0DDAC649B6FD7C5CF549B8E2 /* libPods-JiaoBao2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiaoBao2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		431680EF1D5321570084E1BC /* VKSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKSideMenu.h; sourceTree = "<group>"; };
+		431680F01D5321570084E1BC /* VKSideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKSideMenu.m; sourceTree = "<group>"; };
 		434705CC1D519CA900A46704 /* JiaoBao2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiaoBao2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		434705D01D519CA900A46704 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		434705D21D519CA900A46704 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -137,6 +140,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		431680EE1D5321570084E1BC /* VKSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				431680EF1D5321570084E1BC /* VKSideMenu.h */,
+				431680F01D5321570084E1BC /* VKSideMenu.m */,
+			);
+			path = VKSideMenu;
+			sourceTree = "<group>";
+		};
 		434705C31D519CA900A46704 = {
 			isa = PBXGroup;
 			children = (
@@ -195,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				434706681D51C5AA00A46704 /* Public.h */,
+				431680EE1D5321570084E1BC /* VKSideMenu */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -466,6 +479,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4347065D1D51C4B700A46704 /* InteractViewController.m in Sources */,
+				431680F11D5321570084E1BC /* VKSideMenu.m in Sources */,
 				4347065F1D51C4B700A46704 /* SquareViewController.m in Sources */,
 				434706451D51C4AE00A46704 /* BaseNaviController.m in Sources */,
 				434706471D51C4AE00A46704 /* BaseViewController.m in Sources */,
