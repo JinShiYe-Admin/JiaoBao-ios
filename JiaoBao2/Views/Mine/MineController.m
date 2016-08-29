@@ -26,7 +26,7 @@
     [super viewDidLoad];
     self.navigationController.navigationBarHidden = YES;
 
-    _dataArray=@[@[@"Image_focus.png",@"我的关注"],@[@"Image_history.png",@"观看历史"],@[@"Image_tesk.png",@"我的任务"],@[@"Image_remind.png",@"开播提醒"],@[@"Image_set.png",@"系统设置"],@[@"Image_recommend.png",@"精彩推荐"]];
+    _dataArray=@[@[@"Image_focus.png",@"账号管理"],@[@"Image_history.png",@"消息通知"],@[@"Image_tesk.png",@"意见反馈"],@[@"Image_remind.png",@"常见问题"],@[@"Image_set.png",@"地图显示"],@[@"Image_recommend.png",@"关于教宝"]];
     [self initTableView];
     
     
@@ -87,7 +87,7 @@
         NSArray *array=_dataArray[indexPath.row];
         cell.imageView.image=[UIImage imageNamed:array[0]];
         cell.textLabel.text=array[1];
-        cell.detailTextLabel.text=@"更多鱼丸等你来拿";
+        cell.detailTextLabel.text=@"";
         cell.detailTextLabel.font=[UIFont systemFontOfSize:13];
         cell.accessoryType=UITableViewCellAccessoryDisclosureIndicator;
         cell.selectionStyle=UITableViewCellSelectionStyleNone;
