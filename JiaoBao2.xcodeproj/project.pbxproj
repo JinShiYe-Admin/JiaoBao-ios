@@ -52,6 +52,13 @@
 		434706991D51C72B00A46704 /* btn_user_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 434706931D51C72B00A46704 /* btn_user_selected.png */; };
 		4347069A1D51C72B00A46704 /* btn_user_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 434706941D51C72B00A46704 /* btn_user_selected@2x.png */; };
 		4347069B1D51C72B00A46704 /* btn_user_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 434706951D51C72B00A46704 /* btn_user_selected@3x.png */; };
+		F7A1511A1D73BDF500DFEAF1 /* MineController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A151151D73BDF500DFEAF1 /* MineController.m */; };
+		F7A1511B1D73BDF500DFEAF1 /* MineController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7A151161D73BDF500DFEAF1 /* MineController.xib */; };
+		F7A1511C1D73BDF500DFEAF1 /* HeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A151181D73BDF500DFEAF1 /* HeadCell.m */; };
+		F7A1511D1D73BDF500DFEAF1 /* HeadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7A151191D73BDF500DFEAF1 /* HeadCell.xib */; };
+		F7A249DE1D6D899600D519D5 /* FirstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A249DC1D6D899600D519D5 /* FirstCell.m */; };
+		F7A249DF1D6D899600D519D5 /* FirstCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7A249DD1D6D899600D519D5 /* FirstCell.xib */; };
+		F7A249E11D6D8A1100D519D5 /* Image_head@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A249E01D6D8A1100D519D5 /* Image_head@2x.png */; };
 		FD1629938629246452A23F42 /* libPods-JiaoBao2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DDAC649B6FD7C5CF549B8E2 /* libPods-JiaoBao2.a */; };
 /* End PBXBuildFile section */
 
@@ -117,6 +124,16 @@
 		434706951D51C72B00A46704 /* btn_user_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_user_selected@3x.png"; sourceTree = "<group>"; };
 		52056FDD69B8269A912CD09E /* Pods-JiaoBao2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiaoBao2.release.xcconfig"; path = "Pods/Target Support Files/Pods-JiaoBao2/Pods-JiaoBao2.release.xcconfig"; sourceTree = "<group>"; };
 		5E1E5E5A01138173E2AA8028 /* Pods-JiaoBao2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiaoBao2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JiaoBao2/Pods-JiaoBao2.debug.xcconfig"; sourceTree = "<group>"; };
+		F7A151141D73BDF500DFEAF1 /* MineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineController.h; sourceTree = "<group>"; };
+		F7A151151D73BDF500DFEAF1 /* MineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineController.m; sourceTree = "<group>"; };
+		F7A151161D73BDF500DFEAF1 /* MineController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineController.xib; sourceTree = "<group>"; };
+		F7A151171D73BDF500DFEAF1 /* HeadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadCell.h; sourceTree = "<group>"; };
+		F7A151181D73BDF500DFEAF1 /* HeadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadCell.m; sourceTree = "<group>"; };
+		F7A151191D73BDF500DFEAF1 /* HeadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeadCell.xib; sourceTree = "<group>"; };
+		F7A249DB1D6D899600D519D5 /* FirstCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstCell.h; sourceTree = "<group>"; };
+		F7A249DC1D6D899600D519D5 /* FirstCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstCell.m; sourceTree = "<group>"; };
+		F7A249DD1D6D899600D519D5 /* FirstCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstCell.xib; sourceTree = "<group>"; };
+		F7A249E01D6D8A1100D519D5 /* Image_head@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image_head@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,6 +277,15 @@
 		434706521D51C4B700A46704 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				F7A151141D73BDF500DFEAF1 /* MineController.h */,
+				F7A151151D73BDF500DFEAF1 /* MineController.m */,
+				F7A151161D73BDF500DFEAF1 /* MineController.xib */,
+				F7A151171D73BDF500DFEAF1 /* HeadCell.h */,
+				F7A151181D73BDF500DFEAF1 /* HeadCell.m */,
+				F7A151191D73BDF500DFEAF1 /* HeadCell.xib */,
+				F7A249DB1D6D899600D519D5 /* FirstCell.h */,
+				F7A249DC1D6D899600D519D5 /* FirstCell.m */,
+				F7A249DD1D6D899600D519D5 /* FirstCell.xib */,
 				434706631D51C51D00A46704 /* MineViewController.h */,
 				434706641D51C51D00A46704 /* MineViewController.m */,
 				434706651D51C51D00A46704 /* MineViewController.xib */,
@@ -314,6 +340,7 @@
 				434706931D51C72B00A46704 /* btn_user_selected.png */,
 				434706941D51C72B00A46704 /* btn_user_selected@2x.png */,
 				434706951D51C72B00A46704 /* btn_user_selected@3x.png */,
+				F7A249E01D6D8A1100D519D5 /* Image_head@2x.png */,
 			);
 			path = base;
 			sourceTree = "<group>";
@@ -392,8 +419,11 @@
 				4347066F1D51C68C00A46704 /* btn_home_normal.png in Resources */,
 				434706461D51C4AE00A46704 /* BaseNaviController.xib in Resources */,
 				434706751D51C6B400A46704 /* btn_home_selected.png in Resources */,
+				F7A249E11D6D8A1100D519D5 /* Image_head@2x.png in Resources */,
 				434706481D51C4AE00A46704 /* BaseViewController.xib in Resources */,
+				F7A1511B1D73BDF500DFEAF1 /* MineController.xib in Resources */,
 				434705DF1D519CA900A46704 /* LaunchScreen.storyboard in Resources */,
+				F7A249DF1D6D899600D519D5 /* FirstCell.xib in Resources */,
 				434706671D51C51D00A46704 /* MineViewController.xib in Resources */,
 				434706961D51C72B00A46704 /* btn_user_normal.png in Resources */,
 				4347068F1D51C71A00A46704 /* btn_live_selected@3x.png in Resources */,
@@ -416,6 +446,7 @@
 				4347068A1D51C71A00A46704 /* btn_live_normal.png in Resources */,
 				4347065E1D51C4B700A46704 /* InteractViewController.xib in Resources */,
 				434706981D51C72B00A46704 /* btn_user_normal@3x.png in Resources */,
+				F7A1511D1D73BDF500DFEAF1 /* HeadCell.xib in Resources */,
 				4347068B1D51C71A00A46704 /* btn_live_normal@2x.png in Resources */,
 				434706831D51C70100A46704 /* btn_column_selected@3x.png in Resources */,
 				4347069B1D51C72B00A46704 /* btn_user_selected@3x.png in Resources */,
@@ -480,6 +511,7 @@
 			files = (
 				4347065D1D51C4B700A46704 /* InteractViewController.m in Sources */,
 				431680F11D5321570084E1BC /* VKSideMenu.m in Sources */,
+				F7A249DE1D6D899600D519D5 /* FirstCell.m in Sources */,
 				4347065F1D51C4B700A46704 /* SquareViewController.m in Sources */,
 				434706451D51C4AE00A46704 /* BaseNaviController.m in Sources */,
 				434706471D51C4AE00A46704 /* BaseViewController.m in Sources */,
@@ -488,7 +520,9 @@
 				434705D41D519CA900A46704 /* AppDelegate.m in Sources */,
 				434706661D51C51D00A46704 /* MineViewController.m in Sources */,
 				434705D11D519CA900A46704 /* main.m in Sources */,
+				F7A1511A1D73BDF500DFEAF1 /* MineController.m in Sources */,
 				434706611D51C4B700A46704 /* WorkViewController.m in Sources */,
+				F7A1511C1D73BDF500DFEAF1 /* HeadCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

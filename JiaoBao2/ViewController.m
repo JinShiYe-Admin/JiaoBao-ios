@@ -14,6 +14,7 @@
 #import "InteractViewController.h"
 #import "SquareViewController.h"
 #import "MineViewController.h"
+#import "MineController.h"
 
 @interface ViewController ()
 
@@ -67,7 +68,7 @@
     BaseNaviController *OnlineNavC = [[BaseNaviController alloc] initWithRootViewController:OnlineVC];
     [childVCArray addObject:OnlineNavC];
     
-    MineViewController *MineVC = [[MineViewController alloc] init];
+    MineController *MineVC = [[MineController alloc] init];
     [MineVC.tabBarItem setTitle:@"我的"];
     [MineVC.tabBarItem setImage:[UIImage imageNamed:@"btn_user_normal"]];
     [MineVC.tabBarItem setSelectedImage:[UIImage imageNamed:@"btn_user_selected"]];
